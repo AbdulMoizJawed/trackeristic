@@ -1,0 +1,13 @@
+td.Green {
+    color: #00FF00 !important;
+}
+td.Red {
+    color: #FF0000 !important;
+}
+td.White {
+    color: #BDDBED !important;
+}
+.Green, .Red {
+    font-weight: 700 !important;
+    font-size: 13px !important;
+  }

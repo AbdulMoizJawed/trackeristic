@@ -1,0 +1,162 @@
+.Settings {
+  background-color: #2435d6;
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.SettingsNavbar {
+  list-style-type: none;
+}
+.SettingsNavbar {
+  display: flex;
+  padding: 18px 20px;
+}
+.SettingsNavbar li {
+  margin-right: auto;
+}
+.SettingsNavbar li:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+.SettingsNavbarSpan {
+  font-size: 16.84px;
+  line-height: 19.35px;
+  font-weight: 700;
+  color: #bddbed;
+}
+.SettingsNavbarInputs {
+  border: none;
+  border-radius: 10px;
+  background-color: #3757ff !important;
+  color: #bddbed;
+  padding: 8px 10px;
+  display: block;
+  margin: 0;
+}
+.SettingsNavbarInputs::placeholder {
+  color: #bddbed;
+  font-weight: 400;
+}
+.SettingsBody .row {
+  padding: 0 20px;
+}
+.SettingsNavbarInputs::after {
+  background-color: #3757ff !important;
+  color: #bddbed;
+  font-weight: 400;
+}
+.SettingsNavbarInputs::before {
+  background-color: #3757ff !important;
+  color: #bddbed;
+  font-weight: 400;
+}
+
+.SettingsBody {
+  border-radius: 0px 0px 20px 20px;
+  background: #3063ff;
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+.BodyUpper {
+  height: 15px;
+  background: #374eff;
+}
+.bodyContentMain {
+  display: flex;
+  justify-content: space-around;
+}
+.actualSettings {
+  background: #374eff;
+  border-radius: 10px;
+  margin-top: 30px;
+  display: flex;
+  padding: 7px 10px;
+}
+.info {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #bddbed !important;
+  position: relative;
+}
+.info img {
+  position: absolute;
+  top: 56px;
+  right: 27px;
+  border: 1px solid white;
+  padding: 6px;
+  height: 32px;
+  width: 32px;
+  border-radius: 10px;
+}
+
+.settingHead {
+  color: #bddbed;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-size: 16.84px;
+}
+.settingDescription {
+  color: #bddbed;
+  font-weight: 400;
+  font-size: 16.84px;
+}
+.actualSettingInput {
+  background-color: #3757ff !important;
+  width: 97%;
+  border-radius: 10px;
+  border: 0.1px solid whitesmoke;
+  padding: 10px 10px;
+  color:#BDDBED;
+}
+.actualSettingInput::placeholder {
+  color: #bddbed;
+}
+
+.settingsInputOptions {
+  color: #bddbed;
+  font-weight: 200;
+}
+.settingsInputOptions::before {
+  color: #bddbed;
+}
+.actualSettingInput::placeholder {
+  color: #bddbed;
+}
+.settingsInputOptions::after {
+  color: #bddbed;
+}
+.bodyButtons {
+  flex: 1;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.settingButton {
+  border-radius: 10px;
+  font-size: 14.74px;
+  font-weight: 700;
+  display: block;
+  background-color: #2435d6;
+  position: relative;
+  margin-top: 7px;
+  color: #bddbed !important;
+  border: 0;
+  height: 41.25px;
+  text-align: left;
+}
+.settingButton img{
+  position: absolute;
+  right: 10px;
+}
+
+.svg-inline--fa.fa-bolt {
+  margin-right: 5px;
+}
+.svg-inline--fa.fa-floppy-disk {
+  margin-right: 5px;
+}
+.form-control:focus{
+  color: #BDDBED;
+}

@@ -1,0 +1,194 @@
+@keyframes left {
+  0% {
+   transform: translateX(-30px);
+   opacity: 0;
+  }
+  
+  100% {
+   opacity: 1;
+   transform: none;
+  }
+ }
+
+@keyframes top {
+  0% {
+   transform: translateY(-30px);
+   opacity: 0;
+  }
+  
+  100% {
+   opacity: 1;
+   transform: none;
+  }
+ }
+
+ @keyframes bottom {
+  0% {
+   transform: translateY(30px);
+   opacity: 0;
+  }
+  
+  100% {
+   opacity: 1;
+   transform: none;
+  }
+ }
+
+.MainScreen {
+  background-color: #022a4e;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  margin-left: 15vw;
+  max-height: 100vh;
+}
+
+.Sidebar {
+  min-height: 100vh;
+  width: 15vw;
+  background-color: #022048;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.SidebarLogo {
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  animation: left 1s 0.6 both;
+}
+
+.SidebarList {
+  list-style: none;
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+  padding: 0;
+}
+
+.SidebarList li {
+  background-color: #2f63ff;
+  margin: 10px 0;
+  border-radius: 10px;
+  position: relative;
+  z-index: 2;
+  transition: all 0.25s;
+  animation: left 1s 0.6 both;
+}
+
+.SidebarList img {
+  margin: 0px 5px;
+}
+.SidebarList a {
+  font-size: 1.3vw;
+  cursor: pointer;
+  color: #BDDBED;
+  text-decoration: none;
+  width: 100%;
+  font-weight: bold;
+  padding: 5px 10px;
+  display: block;
+  z-index: 2;
+}
+.SidebarList li.active a{
+  color: #fff;
+}
+.MainScreenContainer {
+  width: 85vw;
+  padding: 18px 50px;
+  max-width: 1600px;
+}
+
+.listTasksChild {
+  font-size: 12.8861px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.SidebarList li:hover {
+  background-color: #2435d6;
+}
+
+.SidebarList li.active {
+  background-color: #2535d6;
+}
+
+.SidebarList li.active::after{
+  font-family: 'fontawesome';
+  content: "\f0da";
+  color: #2535d6;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-right: -18px;
+  margin-top: 2px;
+  font-size: 30px;
+}
+
+.SidebarGasInfo {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  right: 0;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 13px;
+  color: #BDDBED;
+  animation: bottom 1s 0.6 both;
+}
+.LastBlockMineInfo {
+  font-size: 0.7vw;
+  margin-left: 5px;
+  margin-bottom: 10px !important;
+  color: #BDDBED;
+  position: relative;
+  top: -5px;
+}
+.LastBlockMineButton {
+  background-color: transparent;
+  color: #fff;
+  border: 0px;
+  margin-right: 0;
+  margin-left: auto;
+  float: right;
+}
+
+.SidebarGasInfoHeaderIcon {
+  float: right;
+}
+
+.SidebarGasInfoCard {
+  background-color: #3063ff;
+  border-radius: 10px;
+}
+
+.SidebarGasInfoHeader {
+  background-color: #2435d6;
+  padding: 5px 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 10px solid #374EFF;
+}
+
+.SidebarGasInfoBody {
+  padding: 10px;
+}
+.SidebarGasInfoBody p {
+  color: #bddbed;
+  margin-bottom: 10px;
+  font-size: 14.66px;
+  line-height: 16.77px;
+  font-weight: 400;
+}
+.SidebarGasInfoBody span {
+  color: #fff;
+}
+
+.MainScreenContainer > * {
+  animation: top 1s 0.6 both;
+ }

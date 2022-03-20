@@ -1,0 +1,524 @@
+.homeContainer {
+  background-color: #2435d6;
+  color: #fff;
+  border-radius: 30px;
+  height: 100%;
+}
+
+.heading{
+  
+  margin-top: 200px;
+
+}
+
+.Wallet {
+  background-color: #2435d6;
+  color: #fff;
+  border-radius: 30px;
+}
+.WalletNavbar {
+  list-style-type: none;
+}
+.addWalletPopup {
+  background-color: navy;
+  color: white;
+  height: 600px;
+  width: 500px;
+  border-radius: 5px;
+}
+.NoWalletAvailable_Heading {
+  font-size: 30px;
+  color: #bddbed;
+  text-align: center;
+  line-height: 35px;
+}
+.WalletTableAddresses tr {
+  /* background-color: rgba(37, 53, 214, 0.3); */
+  border-radius: 15px;
+  margin: 12px;
+  position: relative;
+left: 20px;
+  /* display: flex; */
+}
+.Wallet .table {
+  border-collapse: separate;
+  border-spacing: 0 0.7em;
+  margin-bottom: 0 !important;
+}
+.table-top {
+  border-radius: 0px 0px 20px 20px;
+  background: #3063ff;
+}
+.WalletTableAddresses {
+  color: #fff;
+  border-radius: 0px;
+  top: -15px;
+  position: relative;
+  margin: 0px;
+}
+.WalletTableHeader th {
+  border: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.WalletTableAddresses td {
+  border: 0px;
+  background-color: #3757ff;
+}
+.transfer .WalletTableAddresses td {
+  background-color: #241BD6;
+}
+.transfer .WalletTableHeader th:last-child {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 26px;
+}
+.task .WalletTableHeader th:last-child {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 120px;
+}
+.WalletTableAddresses td:nth-child(4) img {
+  display: n;
+  padding-right: 18;
+  position: relative;
+  left: 40px;
+}
+.WalletTableHeader {
+  color: #fff;
+  background: #374EFF;
+  font-size: 15px !important;
+  border-radius: 0px !important;
+  margin: 0px !important;
+  position: relative;
+  top: -10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.WalletTableAddresses td {
+  border: 0px;
+}
+.WalletTable {
+  margin-bottom: 2%;
+  background-color: #2435d6;
+}
+.WalletNavbar {
+  display: flex;
+  padding: 18px 20px;
+}
+.WalletNavbar li {
+  margin-right: auto;
+  position: relative;
+}
+.task .WalletNavbar li:first-child img {
+  position: absolute;
+  top: 37px;
+  right: 10px;
+  background-color: #2535d6;
+  color: #BDDBED;
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.task .WalletNavbar li:nth-child(2) img{
+  position: absolute;
+  top: 37px;
+  right: 10px;
+  background-color: #2535d6;
+  color: #BDDBED;
+  padding: 6px;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.WalletNavbar li:last-child {
+  margin-left: auto;
+  margin-right: 0;
+}
+.WalletNavbarSpan {
+  font-size: 16.84px;
+  line-height: 19.35px;
+  font-weight: 700;
+  color: #bddbed;
+}
+.WalletButton {
+  border-radius: 10px;
+  font-size: 14.74px;
+  font-weight: 700;
+  display: block;
+  background-color: #374eff;
+  position: relative;
+  margin-top: 7px;
+  color: #bddbed !important;
+  height: 41.6px;
+  text-align: left;
+  cursor: auto;
+}
+.SelectWallet-Btn img {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  background: #2535d6;
+  padding: 5px;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+}
+.WalletButton::placeholder{
+  color: #bddbed !important;
+}
+.WalletButton span {
+  position: relative;
+  top: 0px;
+  margin-right: 5px;
+  font-size: 14.74px;
+  font-weight: 700;
+  color: #bddbed;
+  margin-right: 20px;
+}
+.WalletButton .span-2 {
+  top: -10px;
+}
+.WalletButton.btn.btn-primary.enter-input {
+  background: #374eff !important;
+  top: 3px;
+  max-width: 150px;
+}
+.WalletButton svg {
+  background: #2535d6;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: -7px;
+  font-size: 20px;
+  top: -2.4px;
+  position: relative;
+}
+.WalletButton img {
+  background-color: #2535d6;
+  padding: 5px;
+  margin: 0 5px;
+    margin-right: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  height: 30px;
+  width: 30px;
+  margin-right: -6px;
+  position: relative;
+  top: -2px;
+}
+.WalletButton:hover {
+  background-color: #2435d6;
+  transition: 0.25s;
+}
+.WalletButton:after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all 0.5s;
+  z-index: 1;
+}
+.WalletTableHeader th {
+  border: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-size: 13px;
+  color: #bddbed;
+  font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
+}
+.WalletTableAddresses td {
+  border: 0px;
+  color: #bddbed;
+  font-weight: 400;
+  font-size: 14.74px;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 13px;
+}
+.WalletTableAddresses td button {
+  background: #2435d6;
+  border-radius: 5px;
+  border: 0;
+  color: #bddbed;
+  margin: 0 5px 0 0;
+  height: 36px;
+  width: 35px;
+  font-size: 23px;
+}
+.WalletTableAddresses td button img {
+  width: 20px;
+  position: relative;
+  top: -2px;
+}
+.WalletTableAddresses td button span {
+  font-size: 19px;
+  top: 2px;
+  position: relative;
+}
+.WalletButton:active:after {
+  box-shadow: 0 0 0 0 rgb(190, 190, 190);
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  transition: 0s;
+  z-index: 1;
+}
+.WalletTableAddresses tr td:first-child {
+  border-radius: 10px 0 0 10px;
+}
+.WalletTableAddresses tr td:last-child {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  right: 150px;
+  text-align: right;
+  padding-top: 7px;
+}
+.WalletTableHeader th:last-child {
+  text-align: right;
+  padding-left: 0;
+  padding-right: 92px;
+}
+.WalletTableHeader th {
+  padding-left: 25px;
+}
+/* modal */
+.modal-content {
+  background-color: transparent !important;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-body .actions {
+  background: #241bb8;
+  padding: 10px 20px;
+  border-radius: 30px 30px 0 0;
+  margin-bottom: 0 !important;
+  border-bottom: 15px solid #241bd6;
+}
+.transfer .WalletTableHeader {
+  background: #241BD6;
+}
+.transfer .WalletTableHeader {
+  background: #241BD6;
+}
+.transfer .modal-body .actions {
+  border-bottom: 5px solid #241bb8;
+}
+.transfer .modal-body .table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  margin-bottom: 0 !important;
+  background: #2435D6;
+}
+.modal-content{
+  border: 0;
+}
+.transfer .table-top {
+  max-height: 400px;
+  scrollbar-width: thin;
+}
+.dropdown-menu.show {
+  background-color: #374EFF;
+  left: -5px !important;
+  border-radius: 0px 0px 10px 10px;
+  padding-top: 0px;
+  top: -8px !important;
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.modal-body input {
+  background: #241bd6 !important;
+  border: 0 !important;
+}
+.modal-body .actions .form-text {
+  color: #bddbed !important;
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  margin-top: 0;
+  font-size: 16.84px;
+  font-weight: 700;
+}
+.modal-body .actions button {
+  background: #374eff;
+  border: 0;
+  min-width: 120px;
+  text-align: left;
+  font-size: 20px;
+  position: relative;
+  margin: 10px 20px 0 0;
+  height: 41.6px;
+  border-radius: 10px;
+}
+.transfer button {
+  width: 100%;
+}
+.transfer button span{
+  top: -3px !important;
+}
+
+.WalletButton:active, .WalletButton:focus {
+  background-color: #374eff !important;
+}
+.transfer button svg {
+  right: 10px !important;
+}
+.actions button svg {
+  background: #2535d6;
+  position: relative;
+  padding: 6px;
+  border-radius: 5px;
+  top: 2px;
+  right: -10px;
+}
+.modal-body .actions img {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  border-radius: 5px;
+  background: #2535d6;
+  padding: 4px;
+  height: 30px;
+  width: 26px;
+}
+.actions button span {
+  font-size: 14.74px;
+  font-weight: 400;
+  color: #bddbed;
+  top: -3px;
+  margin-right: 5px;
+  height: 30px;
+  position: relative;
+}
+.modal-body input,
+.modal-body input::placeholder {
+  color: #bddbed !important;
+}
+.modal-box .mod-inner {
+  padding: 20px 30px 30px 30px;
+  background: #2435d6;
+  border-radius: 0 0 30px 30px;
+}
+.modal-dialog .actions button svg {
+  background: #2535d6;
+  position: relative;
+  padding: 6px;
+  border-radius: 5px;
+  top: 5px;
+  position: absolute;
+  right: 6px;
+}
+.modal-body input {
+  background: #241bd6 !important;
+  border: 0 !important;
+  border-radius: 10px;
+  padding: 10px;
+}
+.table-top {
+  border-radius: 0px 0px 20px 20px;
+  background: #3063ff;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 70vh;
+}
+input#formBasicName {
+  width: 60%;
+}
+.modal-body .form-label {
+  margin-bottom: 0.5rem;
+  color: #bddbed;
+  font-size: 16.84px;
+  font-weight: 700;
+}
+.modal-body .actions button::after {
+  display: none;
+}
+/* model-2 */
+tbody.WalletTableAddresses .form-check-input {
+  background: transparent;
+  border: 1px solid #bddbed;
+}
+tbody.WalletTableAddresses .form-check-input {
+  background: transparent !important;
+  border: 1px solid #bddbed !important;
+  height: 20px;
+  width: 20px;
+  position: relative;
+  left: 20px;
+}
+.modal-body .table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  margin-bottom: 0 !important;
+}
+.modal-body .form-check-input:checked[type="checkbox"] {
+  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 20 20%27%3e%3cpath fill=%27none%27 stroke=%27%23fff%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%273%27 d=%27M6 10l3 3l6-6%27/%3e%3c/svg%3e") !important;
+}
+/* model-2 */
+@media(max-width:1140px){
+  .WalletButton span {
+    font-size: 12px;
+  }
+  .WalletTableAddresses td {
+    font-size: 13px;
+    min-width: 108px;
+  }
+  .WalletTableAddresses td button {
+    height: 30px;
+    width: 30px;
+    font-size: 19px;
+  }
+  .SidebarGasInfoBody p {
+    font-size: 11px;
+  }
+  .SidebarGasInfoBody p {
+    color: #bddbed;
+    margin-bottom: 10px;
+    font-size: 11px;
+    line-height: 16.77px;
+    font-weight: 400;
+  }
+  .LastBlockMineInfo {
+    font-size: 10px;
+  }
+  .WalletTableHeader th {
+    padding-left: 0px;
+  }
+  .WalletTableAddresses tr td:last-child {
+    border-radius: 0;
+    right: 0;
+    padding-top: 7px;
+  }
+  .WalletTableAddresses tr td:first-child {
+    border-radius: 0;
+  }
+  .WalletTableAddresses tr{
+    left:0;
+  }
+  .WalletTableHeader th:last-child {
+    padding-right: 67px;
+  }
+  .WalletTableAddresses td:nth-child(4) img {
+    left: 30px;
+  }
+  .WalletButton {
+    font-size: 11.74px;
+    max-width: 146px;
+    margin: 0 7px 0 0;
+  }
+  .SidebarGasInfoBody p {
+    font-size: 11px;
+  }
+  .LastBlockMineInfo {
+    font-size: 10px;
+  }
+}
